@@ -220,6 +220,8 @@ namespace app
                     else
                     {
                         Form1_0.method_1("Countess not detected!", Color.Red);
+                        return;
+                    }
 
                         //baal not detected...
                         Form1_0.ItemsStruc_0.GetItems(true);
